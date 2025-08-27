@@ -14,3 +14,15 @@ print(eka)
 print(toka)
 print(kolmas)
 print(neljas)
+
+muuttuja1 = 100
+muuttuja2 = "100"
+
+print(muuttuja1 + muuttuja1)
+print(muuttuja2 + muuttuja2)
+
+
+name = input("Anna nimesi: ")
+age = int(input("Anna ikäsi: "))
+#Numeerinen ikä castatty eli muutettu int(input-komennolla lausekkeeseen
+print("Tervehdys,", name, age, "vuotta.")
