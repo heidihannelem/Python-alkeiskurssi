@@ -26,3 +26,14 @@ name = input("Anna nimesi: ")
 age = int(input("Anna ikäsi: "))
 #Numeerinen ikä castatty eli muutettu int(input-komennolla lausekkeeseen
 print("Tervehdys,", name, age, "vuotta.")
+
+lasku = 8/3
+print(f"{lasku:.2f}")
+
+pituus = int(input("Anna pituutesi: "))
+paino = float(input("Anna painosi: "))
+
+#Muuttuja jossa lasku suoritetaan
+bmi = paino / (pituus / 100) ** 2
+print("Pituus-paino-indeksisi on:" , bmi)
+print(f"Pituus-paino-indeksisi on: {bmi:.2f}")
