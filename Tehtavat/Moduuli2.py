@@ -12,7 +12,7 @@ print(f"Ympyrän pinta-ala on: {ala:.2f}")
 kanta = int(input("Anna suorakolmion kanta: "))
 korkeus = int(input("Anna suorakolmion korkeus: "))
 pintaala = kanta * korkeus
-print(f"Suorakolmion inta-ala on: {pintaala:.2f}")
+print(f"Suorakolmion pinta-ala on: {pintaala:.2f}")
 piiri = 2 * (kanta + korkeus)
 print(f"Suorakolmion piiri on: {piiri:.2f}")
 
