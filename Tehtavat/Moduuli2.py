@@ -39,3 +39,8 @@ luoditgrammoina = kokonaisluodit * 13.3
 kg = luoditgrammoina // 1000
 g = luoditgrammoina % 1000
 print(f"Massa nykymittojen mukaan on: {kg} kilogrammaa ja {g:.2f} grammaa")
+
+# Tehtävä 2.6
+import random
+print(f"Lukon 3-numeroinen koodi on: {random.randint(0, 9)}{random.randint(0, 9)}{random.randint(0, 9)}")
+print(f"Lukon 4-numeroinen koodi on: {random.randint(1, 6)}{random.randint(1, 6)}{random.randint(1, 6)}{random.randint(1, 6)}")
