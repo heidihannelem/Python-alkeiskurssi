@@ -1,5 +1,5 @@
 nimi = input("Kerro etunimesi: ")
-nimi1 = "Heudi"
+nimi1 = "Heidi-Hannele"
 
 snimi = input("Anna sukunimesi: ")
 
