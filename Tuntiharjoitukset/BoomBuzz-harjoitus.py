@@ -11,3 +11,5 @@ elif luku % 5 == 0:
 
 else:
     print(luku)
+
+#Tässä tehtävässä tulee huomioida, että ensimmäiseksi tulee laittaa tuo 3 ja 5 yhteinen testaus!
