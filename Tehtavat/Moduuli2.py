@@ -32,7 +32,7 @@ print(f"Keskiarvo on: {keskiarvo:.2f}")
 # Tehtävä 2.5
 leiviska = int(input("Anna leiviskät: "))
 naulat = int(input("Anna naulat: "))
-luodit = int(input("Anna luodit: "))
+luodit = float(input("Anna luodit: "))
 kokonaisnaulat = leiviska * 20
 kokonaisluodit = kokonaisnaulat * 32 + luodit
 luoditgrammoina = kokonaisluodit * 13.3
