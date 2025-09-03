@@ -29,7 +29,7 @@ print(f"Tulo on: {tulo}")
 keskiarvo = summa / 3
 print(f"Keskiarvo on: {keskiarvo:.2f}")
 
-# Tehtävä 2.5
+# Tehtävä 2.5 / int vain kokonaisluvut ja floatilla myös desimaalit!
 leiviska = int(input("Anna leiviskät: "))
 naulat = int(input("Anna naulat: "))
 luodit = float(input("Anna luodit: "))
@@ -44,3 +44,8 @@ print(f"Massa nykymittojen mukaan on: {kg} kilogrammaa ja {g:.2f} grammaa")
 import random
 print(f"Lukon 3-numeroinen koodi on: {random.randint(0, 9)}{random.randint(0, 9)}{random.randint(0, 9)}")
 print(f"Lukon 4-numeroinen koodi on: {random.randint(1, 6)}{random.randint(1, 6)}{random.randint(1, 6)}{random.randint(1, 6)}")
+# Toinen tapa tehdä
+num1 = random.randint(0, 9)
+num2 = random.randint(0, 9)
+num3 = random.randint(0, 9)
+print("Koodi on:", num1, num2, num3)
