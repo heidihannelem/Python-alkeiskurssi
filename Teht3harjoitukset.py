@@ -2,7 +2,8 @@ raha = float(input("Anna käytettävissä oleva rahamääräsi: "))
 
 if raha >= 5:
     print("Voit ostaa kahvin.")
-
+else:
+    print("Rahasi ei riitä kahviin.")
 if raha < 5:
     print("Ei riitä kahviin.")
 
