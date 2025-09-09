@@ -7,4 +7,3 @@ if nimi != "matti":
 
 else:
     print("Seuraava kiitos!")
-
