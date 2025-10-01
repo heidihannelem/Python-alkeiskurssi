@@ -28,3 +28,6 @@ elif yksikkohinta1 > yksikkohinta2:
     print("Toinen pizza on edullisempi.")
 else:
     print("Pizzat ovat yhtä edullisia.")
+
+
+# En ihan handlannut tämän tehtävän loppuun asti tekemistä :)
