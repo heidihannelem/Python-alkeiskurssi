@@ -28,3 +28,11 @@ if "Matti" in nimet:
     print("Matti löytyy")
 else:
     print("Matti hukassa!")
+
+# sort voidaan lajitella lista esim. luvut.sort() aakkos- tai suuruusjärjestykseen
+nimet.sort()
+print(nimet)
+# toiseen suuntaan lista, ä-a HUOM! indeksit ei muutu
+nimet.sort(reverse=True)
+print(nimet)
+
